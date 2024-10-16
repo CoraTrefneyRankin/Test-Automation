@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\PlaywrightAutomation\\PlaywrightAutomation.csproj": {}
+  },
+  "projects": {
+    "C:\\PlaywrightAutomation\\PlaywrightAutomation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\PlaywrightAutomation\\PlaywrightAutomation.csproj",
+        "projectName": "PlaywrightAutomation",
+        "projectPath": "C:\\PlaywrightAutomation\\PlaywrightAutomation.csproj",
+        "packagesPath": "C:\\Users\\mttref\\.nuget\\packages\\",
+        "outputPath": "C:\\PlaywrightAutomation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mttref\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Microsoft.Playwright.NUnit": {
+              "target": "Package",
+              "version": "[1.39.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.16.3, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.16.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
